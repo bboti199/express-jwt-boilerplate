@@ -6,7 +6,7 @@ module.exports = async function(user) {
   const accessToken = jwt.sign(
     { user: { id: user.id, admin: user.isAdmin } },
     process.env.ACCESS_TOKEN_SECRET,
-    { expiresIn: '5s' }
+    { expiresIn: '15min' }
   );
 
   const refreshToken = jwt.sign(
