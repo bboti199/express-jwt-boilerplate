@@ -1,0 +1,26 @@
+{
+  "name": "express-refresh-tokens",
+  "version": "1.0.0",
+  "description": "A simple express server with JWT Refresh Token auth",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "bboti199",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
